@@ -1,0 +1,1 @@
+[{"severity":"convention","location":{"begin_pos":307,"end_pos":330},"message":"Freeze mutable objects assigned to constants.","cop_name":"Style/MutableConstant","status":"uncorrected"}]

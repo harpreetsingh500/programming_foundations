@@ -1,0 +1,50 @@
+# pseudo code for a method that returns the sum of two integers
+# CASUAL PSEUDO CODE
+  1. define a method that will take two arguments
+  2. then it will add those two numbers togeather
+  3. and return the sum
+# FORMAL PSEUDO CODE
+  START 
+  define method(num1, num2)
+  PRINT num1 + num2
+  end
+  
+# pseudo code for a method that takes an array of strings and returns a string that is all those string concatenated togeather
+# CASUAL PSEUDO CODE
+  1. define a method that will an array as an argument
+  2. then take all of the strings in the array and make them into one string
+  3. return the new string
+# FORMAL PSEUDO CODE
+  START
+  define method(array)
+  SET new_string = ""
+  SET array_index = 0
+  
+  WHILE array_index < number of strings in array
+    new_string = array(array_index)
+    array_index += 1
+    
+  PRINT new_string
+  
+  END
+  
+# pseudo code for a method that takes an array of integers and returns a new array with every other element
+# CASUAL PSEUDO CODE
+  1. define a method that will an array as an argument
+  2. take every other element in the array and store in a new array
+  3. return the new array
+# FORMAL PSEUDO CODE
+  START
+  define method(array)
+  SET new_array = []
+  SET index = 1
+  
+  WHILE index < number of integers in the array
+    if index is odd
+    new_array will take the array[index] value
+    
+    index += 2
+    
+  PRINT new_array
+  
+  END
